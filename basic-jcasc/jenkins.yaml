@@ -1,0 +1,11 @@
+jenkins:
+    systemMessage: "Configured as Code"
+
+security:
+    globaljobdslsecurityconfiguration:
+        useScriptSecurity: false
+
+unclassified:
+  gitscm:
+    globalConfigName: jenkins
+    globalConfigEmail: jenkins@domain.local
