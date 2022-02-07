@@ -1,6 +1,6 @@
 job('seed-external-job') {
   scm {
-      git('https://github.com/bagwanwasim01/jenkins-job-dsl.git')'
+      git('https://github.com/bagwanwasim01/jenkins-job-dsl.git')
   }
   steps {
     dsl {
